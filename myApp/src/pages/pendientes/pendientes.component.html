@@ -5,10 +5,17 @@
   </ion-header>
   
   <ion-content padding>
-    <ul>
-        <li *ngFor="let lista of listadeseos.listas">
-            {{ lista.nombre }}
-        </li>
-    </ul>
+
+        <ion-card *ngFor="let lista of listadeseos.listas">
+            <ion-item>
+                BOTON
+            </ion-item>
+            <h2>{{ lista.nombre }}</h2>
+     
+        <ion-item>
+            Tetris
+        </ion-item>
+ 
+        </ion-card>
   </ion-content>
   
